@@ -212,6 +212,31 @@ hr {
 	margin-bottom: 20px;
 }
 
+/*our story - third section*/
+.our-story {
+	background: url(../images/about.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 100% 100%;
+	text-align: center;
+	color: white;
+	padding: 70px;
+}
+
+.our-story-heading {
+	color: #38bcdb;
+	text-decoration: underline;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+.our-story-text {
+	max-width: 800px;
+	font-size: 18px;
+	line-height: 25px;
+	margin: 0 auto
+}
+
 /*footer*/
 .trilogy-logo-footer {
 	max-width: 200px;
