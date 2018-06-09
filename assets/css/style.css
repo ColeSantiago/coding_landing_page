@@ -17,8 +17,8 @@ body {
 	background-position: 100% 100%;
 }
 
-/*header*/
-header {
+/*nav*/
+nav {
 	display: flex;
     justify-content: space-around;
 	background: rgb(0, 0, 0, 0.8);
@@ -35,6 +35,7 @@ header {
 	font-size: 12px;
 	line-height: 15px;
 	color: white;
+	max-width: 204px;
 }
 
 .phone-number {
@@ -326,14 +327,31 @@ b {
 }
 
 /*mobile layout*/
+@media only screen and (max-width: 880px) {
+	.learn-coding {
+		display: block;
+		height: 850px;
+	}
+
+	.FAQ {
+		line-height: 20px;
+		margin-left: 0px;
+	}
+}
+
 @media only screen and (max-width: 375px) {
 	/*taking care of the postioning and images first*/
 	* {
-		box-sizing:border-box
+		box-sizing:border-box;
+		background-repeat: no-repeat;
 	}
 
 	header, .learn-coding, .featuring, footer {
 		display: block;
+	}
+
+	.wrap-learning-section {
+		background: white;
 	}
 
 	.wrap-featuring-section {
@@ -351,7 +369,7 @@ b {
 		background: url(../images/mobile/fap_mobile.jpg);
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
-		height: 900px;
+		height: 850px;
 		line-height: 30px;
 		padding: 0px;
 	}
@@ -456,12 +474,32 @@ b {
 	}
 	
 	/*starting from the top and going down*/
-	header {
+	/*first section*/
+	nav {
 		background: black;
+		display: table;
+		width: 100%;
+	}
+
+	.header-text {
+		display: table-header-group;
+		text-align: center;
+		line-height: 40px;
+		font-size: 14px;
+	}
+
+	.trilogy-logo-header {
+	    display: table-footer-group;
+	    margin: 0 auto;
 	}
 
 	.right, .header-learn, .header-starts {
 		display: none;
+	}
+
+	.learn-coding {
+		height: 150px;
+		background: white;
 	}
 
 	.left {
@@ -476,7 +514,8 @@ b {
 		background: white;
 		padding: 16px;
 	}
-
+	
+	/*second section*/
 	.featuring {
 		line-height: 20px;
 		margin: 10px;
@@ -494,15 +533,18 @@ b {
 		margin-top: 0px;
 	}
 
+	/*forth section*/
 	.FAQ-header {
 		text-align: center;
+		font-size: 25px;
 	}
 
 	.FAQ {
 		padding: 20px;
 		margin-left: 20px;
 	}
-
+	
+	/*footer*/
 	.footer-text {
 		text-align: center;
 	}
