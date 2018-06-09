@@ -19,22 +19,21 @@ body {
 /*header*/
 header {
 	background: rgb(0, 0, 0, 0.8);
-	padding: 7px;
-
+	padding: 10px;
+	padding-top: 20px;
+	display: flex;
+    justify-content: space-around;
 }
 
 .trilogy-logo-header {
-	max-width: 150px;
-	margin-left: 60px;
+	max-height: 60px;
 }
 
 .header-text {
-	float: right;
 	text-align: end;
 	font-size: 12px;
 	color: white;
 	line-height: 15px;
-	margin-right: 60px;
 }
 
 .phone-number {
@@ -44,7 +43,7 @@ header {
 /*first section - learn coding*/
 .learn-coding {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .left, .right {
@@ -235,6 +234,36 @@ hr {
 }
 
 /*Fourth section - FAQ*/
+.wrap-FAQ-section {
+	background: url(../images/faq.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 100% 100%;
+	text-align: start;
+	color: black;
+	padding: 80px;
+	height: 500px;
+	line-height: 40px;
+	font-size: 18px;
+}
+
+.FAQ {
+	max-width: 600px;
+	margin-left: 130px;
+}
+
+.FAQ-header {
+	font-size: 30px;
+	text-decoration: underline;
+	margin-bottom: 30px;
+}
+
+ul {
+	list-style-type: disc;
+	list-style-position: inside;
+}
+
+/*toggle css*/
 .accordion {
 	height: 20px;
     width: 20px;
@@ -268,13 +297,29 @@ hr {
 
 .panel {
     padding: 0 18px;
-    background-color: white;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
 
 /*footer*/
+footer {
+	display: flex;
+	justify-content: space-around;
+	background: rgb(105, 202, 227);
+	padding: 40px;
+}
 .trilogy-logo-footer {
-	max-width: 200px;
+	max-width: 400px;
+}
+
+.footer-text {
+	list-style-type: none;
+	text-align: end;
+	max-width: 370px;
+	line-height: 20px;
+}
+
+b {
+	font-weight: bold;
 }
