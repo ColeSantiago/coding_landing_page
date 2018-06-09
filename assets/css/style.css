@@ -162,7 +162,14 @@ hr {
     width: 114%;
 }
 
+/*featuring - second section*/
+.icon {
+	max-width: 80px;
+}
 
+.iphone-img {
+	max-width: 230px;
+}
 
 /*footer*/
 .trilogy-logo-footer {
