@@ -132,7 +132,37 @@ i {
 	text-align: end;
 	max-width: 300px;
 	margin-right: 80px;
+	color: white;
+	line-height: 20px;
 }
+
+.coding-header, .data-header {
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.coding-header {
+	color: #38bcdb;
+}
+
+.coding {
+	margin-bottom: 95px;
+}
+
+hr {
+	padding: 1px;
+	background: white;
+}
+
+.blue-hr {
+	background: #38bcdb;
+	border: 1px solid #38bcdb;
+	margin-left: -15%;
+    width: 114%;
+}
+
+
 
 /*footer*/
 .trilogy-logo-footer {
