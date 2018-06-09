@@ -1,4 +1,4 @@
-$(document).ready(function(event) {
+$(document).ready(function() {
 	// accordion controls 
   	let acc = $(".accordion");
 	let i;

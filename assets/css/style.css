@@ -1,8 +1,11 @@
 /*font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Slab', serif;*/
 body {
-  	font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;	
+}
 
+h1, h2, h3, h4, .form-title {
+	font-family: 'Roboto', sans-serif;
 }
 
 .slideshow-container {
