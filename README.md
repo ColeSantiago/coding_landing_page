@@ -1,6 +1,6 @@
 # coding_landing_page
 
-## Reacreated from a mock up
+## Recreated from a mock up
 
 A coding landing page made from Html5, CSS3, Javascript, and Jquery.
 
