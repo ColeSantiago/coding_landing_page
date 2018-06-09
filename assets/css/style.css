@@ -114,13 +114,13 @@ input {
 }
 
 .arrow {
-  border: solid white;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 6px;
-  color: white;
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
+ 	border: solid white;
+  	border-width: 0 3px 3px 0;
+  	display: inline-block;
+  	padding: 6px;
+  	color: white;
+  	transform: rotate(-45deg);
+  	-webkit-transform: rotate(-45deg);
 }
 
 /*right side of first section*/
@@ -238,7 +238,7 @@ hr {
 	background: url(../images/faq.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: 100% 100%;
+	background-position: center;
 	text-align: start;
 	color: black;
 	padding: 80px;
@@ -322,4 +322,67 @@ footer {
 
 b {
 	font-weight: bold;
+}
+
+/*mobile layout*/
+@media only screen and (max-width: 375px) {
+	/*taking care of the postioning and images first*/
+	header, .learn-coding, .featuring, footer {
+		display: block;
+	}
+
+	.wrap-learning-section {
+		background: url(../images/mobile/code_mobile_hero.jpg);
+		background-repeat: no-repeat;
+	}
+
+	.wrap-featuring-section {
+		background: url(../images/mobile/featuring_mobile.jpg);
+		background-repeat: no-repeat;
+	}
+
+	.our-story {
+		background: url(../images/mobile/about_mobile.jpg);
+		background-repeat: no-repeat;
+	}
+
+	.wrap-FAQ-section {
+		background: url(../images/mobile/fap_mobile.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		height: 900px;
+		line-height: 30px;
+		padding: 0px;
+	}
+	
+	/*starting from the top and going down*/
+	header {
+		background: black;
+	}
+
+	.get-info-form {
+		width: 240px;
+	}
+
+	.featuring {
+		line-height: 20px;
+		margin: 10px;
+	}
+
+	.iphone-img {
+		max-height: 240px;
+	}
+
+	.FAQ-header {
+		text-align: center;
+	}
+
+	.FAQ {
+		padding: 20px;
+		margin-left: 20px;
+	}
+
+	.footer-text {
+		text-align: center;
+	}
 }
