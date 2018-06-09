@@ -41,7 +41,7 @@ header {
 	color: #38bcdb;
 }
 
-/*learn coding - first section*/
+/*first section - learn coding*/
 .learn-coding {
     display: flex;
     justify-content: space-between;
@@ -114,17 +114,14 @@ input {
 	cursor: pointer;
 }
 
-i {
+.arrow {
   border: solid white;
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 6px;
   color: white;
-}
-
-.arrow {
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
 }
 
 /*right side of first section*/
@@ -162,7 +159,7 @@ hr {
     width: 114%;
 }
 
-/*featuring - second section*/
+/*second section - featuring*/
 .wrap-featuring-section {
 	background: url(../images/featuring.jpg);
 	background-repeat: no-repeat;
@@ -212,7 +209,7 @@ hr {
 	margin-bottom: 20px;
 }
 
-/*our story - third section*/
+/*third section - our story*/
 .our-story {
 	background: url(../images/about.jpg);
 	background-repeat: no-repeat;
@@ -235,6 +232,17 @@ hr {
 	font-size: 18px;
 	line-height: 25px;
 	margin: 0 auto
+}
+
+/*Fourth section - FAQ*/
+.faq-arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 2px;
+  color: white;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
 }
 
 /*footer*/
